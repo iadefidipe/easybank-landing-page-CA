@@ -1,35 +1,14 @@
-/** @mixin media-query($size) {
 
-    @if $size == desktop-large{
-        @media screen and (min-width: 1440px) and (max-width: 2560px) {
-            @content;
-        }
-    }
-
-    @else if $size == desktop-medium {
-        @media screen and (max-width: 1024px) {
-            @content;
-        } 
+@media (min-width: 64em){
+    
 }
 
-    @else if $size == tablet {
-        @media screen and (max-width: 768px) {
-            @content;
-        } 
-    }
-    @else if $size == mobile {
-        @media screen and (max-width: 556px){
-            @content;
-        }
-    }
-}
-**/
 
 //640px, 1024px, 1400px
 $breakpoints-up: ("medium": "40em", "large": "64em", "xlarge": "87.5em");
 
 //639px, 1023px, 1399px
-$breakpoints-down: ( "small":"39.9375em", "medium": "63.9375em", "large": "87.9375em");
+$breakpoints-down: ( "small":"39.9375em", "medium": "63.9375em", "large": "87.4375em");
 
 @mixin breakpoint-up($size) {
     
