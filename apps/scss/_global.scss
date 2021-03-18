@@ -20,7 +20,7 @@ body{
 
 a, a:visited, a:hover{
     text-decoration: none;
-    color: $grayishBlue;
+    
 }
 //Flexbox
 
@@ -40,8 +40,10 @@ a, a:visited, a:hover{
     }
 }
 
+//button styling
+
 button,.button{
-    padding:  1rem 1.875rem;
+    padding:  0.875rem 2.1875rem;
     border-radius: 50px;
     cursor: pointer;
     background: linear-gradient(to right, $limeGreen, $brightCyan);
@@ -64,3 +66,4 @@ button,.button{
     }
     
 }
+
